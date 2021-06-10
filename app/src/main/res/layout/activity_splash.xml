@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/gradiant_background_1"
+    tools:context=".apps.Activities.Activity_SplashScreen">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView_1"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:alpha="0.4"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_splash" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_16sdp"
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_25sdp"
+            android:alpha="0.3"
+            android:fontFamily="sans-serif-black"
+            android:textAllCaps="false"
+            android:text="@string/splash_title" />
+
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_marginTop="20dp"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            app:indicatorColor="@color/white"
+            app:indicatorName="LineScaleIndicator" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "HIX_GFX_ORIGINAL6"

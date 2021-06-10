@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Attack On Titan Guide</string>
+
+    <!--Splash Screen    -->
+    <string name="splash_title">AOT 2</string>
+    <!--  *********************************************************************  -->
+
+    <string name="text_dialogRate_right"> </string>
+    <string name="text_First_dialogRate_message">How much do you love this app ?</string>
+    <string name="text_dialogRate_message1"> To get the update</string>
+    <string name="text_dialogRate_message2">Tell us what the features that you want us to add in the app.</string>
+
+
+    <string name="list_title">Pro Guide</string>
+    <string name="searching_list">SEARCHING...</string>
+    <string name="searching_list_failed">SERACHING FAILED</string>
+    <string name="searching_list_try">TRY AGAIN</string>
+
+    <string name="searching_content">Loading UI</string>
+    <string name="searching_content_failed">LOADINF FAILED</string>
+    <string name="searching_content_try">TRY AGAIN</string>
+
+    <string name="setting">Settings</string>
+
+    <string name="rate_title">Rate US</string>
+    <string name="rate_desc">Whether you love us or feel we could be doing better, we want to know!</string>
+    <string name="rate_ok">Rate it</string>
+    <string name="rate_on">No Thanks</string>
+
+
+    <string name="devlepedby">SAID MOTYA</string>
+    <string name="warning_text">This app directed by "Fans" And its not Official If we infringe copyright let us know and will be removed as soon as possible Thank You !</string>
+
+
+    <!--CONSENT GDPR FOR EU USERS-->
+    <string name="consent_title">Personalize Your Ad Experience</string>
+    <string name="consent">I consent to disclosure of the advertising ID of my device to advertising companies to serve personalized ads.<font fgcolor="#4097ff"><u>Learn more</u></font></string>
+    <string name="consent_byargeeing">By agreeing, you confirm that you are over the age of 16.</string>
+    <string name="consent_no"><u>NO, THANK YOU</u></string>
+    <string name="consent_yes">YES, I AGREE</string>
+    <string name="consent_seeads">I understand that I will still see ads, relevant to my interests.</string>
+
+
+</resources>
